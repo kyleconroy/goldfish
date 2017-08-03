@@ -1,0 +1,15 @@
+{
+  "description": "Only remember history for a period of time.",
+  "homepage_url": "https://github.com/kyleconroy/goldfish",
+  "manifest_version": 2,
+  "name": "Goldfish",
+  "permissions": [
+    "alarms",
+    "history"
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "version": "1.0.2"
+}
+
